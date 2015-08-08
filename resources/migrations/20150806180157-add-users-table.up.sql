@@ -1,9 +1,6 @@
-CREATE TABLE users
-(id VARCHAR(20) PRIMARY KEY,
- first_name VARCHAR(30),
- last_name VARCHAR(30),
- email VARCHAR(30),
- admin BOOLEAN,
- last_login TIME,
- is_active BOOLEAN,
- pass VARCHAR(100));
+create table my-contacts (
+id SERIAL PRIMARY KEY,
+name VARCHAR(40),
+email VARCHAR(40),
+phone VARCHAR(15)
+);
