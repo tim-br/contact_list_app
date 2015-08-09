@@ -28,7 +28,6 @@
                  [org.postgresql/postgresql "9.3-1102-jdbc41"]
                  [org.clojure/clojurescript "1.7.58" :scope "provided"]
                  [org.clojure/data.json "0.2.6"]
-
                  [org.clojure/tools.reader "0.9.2"]
                  [reagent "0.5.0"]
                  [cljsjs/react "0.13.3-1"]
