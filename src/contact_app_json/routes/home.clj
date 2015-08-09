@@ -17,5 +17,7 @@
 
 (defroutes home-routes
   (GET "/" [] (home-page))
+  (GET "/hello" [] (json/write-str (yolo)))
+
   (POST "/contact/new" request (db/create-contact! request))
   (GET "/docs" [] (ok (-> "docs/docs.md" io/resource slurp))))

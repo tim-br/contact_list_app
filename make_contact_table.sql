@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS contact (
+id SERIAL PRIMARY KEY,
+name VARCHAR(40),
+email VARCHAR(40),
+phone VARCHAR(15)
+);
